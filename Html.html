@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+<body> 
+     
+     
+     <div class="navbar">
+         <div class="img-div inline">
+     	   <img src="Cuisine.png">
+     	 </div>
+
+     	  <div class="buttons inline">
+     	  	  <p href="" class="inline" style="color:red" > Bussines Day/shift</p>
+     	  	    <select class="b button nav-btn" >
+                        <option value="takeaway">MODE: TakeAway</option>
+                        <option value="">MODE:delv</option>
+                         <option value="mercedes">MODE:test</option>
+                          <option value="audi">MODE:trance</option>
+              </select>
+     	  	  <button class="b button nav-btn">Order Queue</button>
+     	  	
+              <button class="b button nav-btn">admin</button>
+     	  </div>
+     </div>
+
+    <div class="main-container">
+
+
+    <div class="left-div inline">
+          
+          <div class="order-info">
+              <p>Date: 16/072018</p>
+              <p>Hour:12:53: Pm </p>
+              <p>Minmum Charge: 0.00</p>
+
+              <h2>TakeAway #100</h2>
+               <button class=" b button nav-btn">Customer name</button>
+               <br>
+               <br>
+
+              <table style="border: 1px solid black">
+              	 <tr>
+                      <th>Qty</th>
+                      <th>Item</th> 
+                      <th>Size</th>
+                      <th>Each</th>
+                      <th>Total</th>
+                 </tr>
+
+              </table> 
+              <h4>No Items Curently Order</h4>
+
+          </div>
+          <div class="order-contnet">
+        	  
+              <button Id="addbtn" class=" b button">+</button>
+
+        	 <div class="cash-div inline">
+        	  
+        	  <div class="cash-btn-div">
+        	  <button id="flash" class="b button cir-btn"><i class=" glyphicon">&#9889;</i>Discount Order</button> 
+              </div>
+              
+               <div class="cash-info inline">
+               	 <h4>DisCountes:0.00</h4> 
+               	 <h4>Subcharges:0.00</h4>
+               	 <h4> Tax:0.00</h4>
+
+               </div>
+               <div class="cash-info2 inline">
+               	 
+               	  <h2 style="color:red; ">Total:50.00</h2>
+               	 <h4> Balance due:   50.00</h4>
+
+               </div>
+
+
+            </div>
+          
+         
+           </div>
+
+            <hr>  
+            <br><br>
+             <button class="b button cir-btn"><i class=" glyphicon">&#10005;</i>Discount Order</button>
+             <button class="b button cir-btn"><i class=" glyphicon">&#37;</i>Discount Order</button>
+             <button class="b button cir-btn"><i class=" glyphicon">&#128339;</i>Discount Order</button>
+            <button id="dolar" class="b button cir-btn"><i class=" glyphicon">&#36;</i>Discounccct Order</button> 
+             
+             <br><br><br><br>
+
+    
+      </div>
+             
+
+       <div class="right-div inline"> 
+
+         <input type="text" name="sreach" placeholder="sreach">
+          <br><br>
+
+         <div class="Food-btn">
+         	<button  class="Food-tab active">Food</button>
+         	<button class="Food-tab">Beverage</button>
+         	<button class="Food-tab">Marchadise</button>
+         	<button class="Food-tab">Meal</button>
+         	<button class="Food-tab" onclick="openclosemenu()">&#8801;</button>
+         
+         </div>
+
+         <div class="subbuttons">
+           <button id="BREADS" class="Food-tab sub-tab">Breads</button>
+         	<button id="PASTAS" class="Food-tab sub-tab active">Pastas</button>
+         	<button id="PIZZAS"class="Food-tab sub-tab">Pizzas</button>
+         	<button id="SOUPS" class="Food-tab sub-tab">Soups</button>
+         	<button class="Food-tab sub-tab">&#8801;</button>
+         	
+        </div>
+        
+        
+
+          <div class="menu">
+           	<div id="pastas" class="da">
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             <button class="type">pasta</button>
+             </div>
+            <div id="breads" class="" >
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+                <button class="type">Breads</button>
+            </div>
+            <div id="pizzas" class="" >
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+                 <button class="type">Pizzas</button>
+             </div>
+             <div id="soups" class="" >
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+                 <button class="type">Soups</button>
+             </div>
+
+          	
+          </div><!--menu-d
+
+
+
+        </div><!--right-div-->
+
+   </div><!--contanier-->
+
+</body>
+ 
+ <script type="text/javascript" src="javascript.js"></script>
+ 
+</html>

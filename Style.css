@@ -1,0 +1,276 @@
+body{
+ margin:0;
+}
+
+.navbar{
+   width:100%;
+   background-color:white; 
+   top:0; 
+   height:60px;    
+
+} 
+.navbar .img-div{
+ height:50px; 
+ width:40%;
+ display:inline-block;
+ margin-left:2%; 
+}
+.navbar .buttons{
+ height:50px;
+ width: 50%;
+ float:right 
+
+}
+.navbar img{
+ height:50px; 
+ width:40%;
+
+}
+.navbar .buttons p,h2,select {
+	position: relative;
+    top: 10%; 
+}
+
+.main-container{
+    margin:auto 
+	width:100%;
+	background-color:rgba(0,0,0,0.06);
+	height:900px; 
+}
+
+.left-div{
+   width:49%;
+   margin:0; 
+   padding: 0;
+   background-color:rgba(0,0,0,0.06);
+   float: left;
+   
+   
+}
+
+.order-info P{
+   display:inline-block; 
+   width:30%; 
+   text-align: center;
+   color: darkgray;
+}
+.order-info h2{
+	 display:inline-block; 
+	 text-align: center;
+	 width:50%; 
+}
+.order-info h4{
+  color: darkgray;
+  width:100%;
+  text-align:center;  
+}
+
+table {
+      width: 100%;
+    background: white;
+}
+
+.order-contnet {
+   width: 100%;
+   height:400px; 
+   background-color:white; 
+}
+.cash-div{
+	width:100%;
+	height:40%;
+	position:relative; 
+	top:50%;  
+}
+#addbtn{
+  width:50px; 
+  height: 50px;
+  border-radius:50%; 
+
+}
+
+.cash-btn-div{
+	padding:0;	 
+	display:inline; 
+}
+.cash-info{
+	position: relative;
+    top: 15px;
+    left: 70px;
+}
+
+.cash-info2{
+	 position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+
+.right-div{
+   width:49%;
+   height:850px; 
+   margin:0;
+   padding:0;  
+   background-color:rgba(0,0,0,0.06);
+   float: right;
+   padding:10px;
+
+}
+.Food-tab{
+ margin:0;
+ border: none;
+ width:20%;
+ height:90px; 
+ font-size: 16px;
+ display:block; 
+ background-color:white;
+ outline: none;
+ border: 0.5px solid rgba(0,0,0,0.06) ;
+ border-radius:0px;
+ float:left;  
+ color:red;   
+}
+.Food-tab:hover{
+	background-color:white;
+   opacity:0.5; 
+ 
+}
+.Food-btn .Food-tab:first-child{
+  border-radius:30px 0px 0px 0px; 
+}
+.Food-btn .Food-tab:last-child{
+  border-radius: 0px 30px 0px 0px;
+	font-size:40px; 
+}
+.Food-btn .active{
+   background-color:red;
+   color:white; 
+}
+
+.menu{
+display:inline-block;	
+width:100%;
+background-color:white;  
+height:500px; 
+padding-top:10px;   
+
+
+}
+
+.type{
+	width:17%;
+	height:100px; 
+	margin:1.25%; 
+	display: inline-block; 
+    background-color:rgba(0,0,0,0.06); 
+    font-size:16px;
+    outline:none;
+    float:left;
+    border:none;
+    border-radius:10px;    
+
+}
+.subbuttons{
+ display:block;   
+ }
+
+ .subbuttons .active{
+ 	border-bottom:2px solid red; 
+ }
+
+
+.sub-tab{
+ border-radius:0px;  
+ height:50px;
+ border:none;
+
+}
+
+
+.inline{
+	display:inline-block; 
+}
+
+.button {
+    background-color: #eeeeee;
+    border: none;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none
+}
+.button:hover{
+    opacity:0.5; 
+}
+.button:active{
+  background-color:white;
+  box-shadow: 0 3px 15px -2px;
+  
+}
+
+.nav-btn {
+	min-width:140px;
+ 	border-radius: 20px;
+ 	margin:0 20px; 
+}
+.cir-btn {
+	width:135px;
+    border-radius: 50%;
+ 	margin:0 20px; 
+ 	height: 140px;
+   text-align: center;
+   overflow:hidden; 
+ }
+ 
+ button,.glyphicon {
+ 	display:block;
+ 	font-size:50px;	
+ 	font-weight: bold;
+ 	margin-bottom: 15px;
+   font-style: inherit;
+ }
+ #flash{
+ 	margin-bottom: 10px;
+ 	width:120px;
+ 	height:120px;  
+ 	color:orange;
+ 	position: relative;
+    bottom: 35px;
+ }
+ #flash .glyphicon {
+ 	margin-bottom: 0;
+
+ }
+
+input[type=text] {
+    width:100%;
+    height:40px; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    outline: none;
+}
+#dolar{
+	background: red;
+    color: white;
+}
+
+input[type=text]:focus {
+    
+}
+.hidden{
+	display:none; 
+}
+ 
+
+
